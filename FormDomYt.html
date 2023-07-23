@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Form Dom</title>
+    <link rel="stylesheet" href="StyleFormDomYT.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="imgBx">
+        <img src="Assets/Scary.jpeg" />
+      </div>
+      <div class="title">
+        <h1>Sign Up Here</h1>
+        <p>You'll Not regret it!</p>
+      </div>
+      <form id="form">
+        <div class="inputBox">
+          <label for="username">Name</label>
+          <input type="text" id="name" placeholder="Username" required />
+          <div class="error"></div>
+        </div>
+        <div class="inputBox">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email id" required />
+          <div class="error"></div>
+        </div>
+        <div class="inputBox">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <div class="error"></div>
+        </div>
+        <div class="inputBox">
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+      <div class="plus">
+        <p>Or if you don't want just</p>
+      </div>
+      <div class="login">
+        <img src="Assets/GoogleLogo.png" />
+        <a
+          href="https://accounts.google.com/v3/signin/identifier?dsh=S-66630345%3A1689566853086558&hl=in&ifkv=AeDOFXh1vxp0QT-7V-gjI6I_HKD5Jsis7zl28sZqCU_2i8zNonWhYfD4vp-Ko1mjnlSLYkUY_9SO&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+          target="_blank"
+          >Sign up with Google</a
+        >
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

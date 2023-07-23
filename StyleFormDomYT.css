@@ -1,0 +1,175 @@
+body{
+    margin : 0;
+    padding : 0;
+    background: url(Assets/Wall.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container{
+    position: flex;
+    width: 900px;
+    height: 600px;
+    border-radius: 12px;
+    border: 12px;
+    box-shadow: 10px 10px 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.title h1{
+    color: #9a1414;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-top: 80px;
+    letter-spacing: 0.3 rem;
+    font-family:    Verdana, sans-serif;
+}
+
+.title p{
+    display: flex;
+    padding-left: 173px;
+    font-family: 'Lucida Grande', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1 rem;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(16, 15, 14);
+}
+
+.imgBx{
+    width: 390px;
+    height: 600px;
+    overflow: hidden;
+    float: left;  
+    
+}
+
+.imgBx img{
+    width: 100%;
+    border-radius: 12px 0;
+}
+
+.imgBx form{
+    color: #fff;
+    cursor: pointer;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    width :32%;
+    padding-left: 125px;
+    padding-top: 0;
+}
+
+input{
+    background-color: transparent;
+    border : 1px solid;
+    border-radius: 10px;
+    height:30px;
+    color: black;
+}
+
+::placeholder{
+    color: rgb(209, 207, 207);
+    font-size: 9px;
+    font-style: italic;
+    padding-left: 3px;
+}
+
+.inputBox input:focus{
+    outline: 0;
+}
+
+.inputBox label{
+    font-size: 11px;
+    color: rgb(209, 207, 207);
+    padding-bottom: 5px;
+    padding-top: 18px;
+    padding-left: 2px;
+}
+
+.inputBox button{
+    background : #9a1414;
+    color : #fff;
+    font-size: 14px;
+    border : 0;
+    outline : 0;
+    cursor : pointer;
+    width: 270px;
+    height: 30px;
+    margin: 30px auto 0;
+    border-radius: 30px;
+}
+
+.inputBox.success input{
+    border-color: #09c372;
+    border-width: 3px;
+
+}
+
+.inputBox.error input{
+    border-color: #ff3860;
+    /* padding-bottom: 15px; */
+}
+
+.inputBox.error{
+    color: #ff3860;
+    font-size: 9px;
+    /* padding-bottom: 15px; */
+    display: flex;
+    flex-direction: column;
+    width :32%;
+    padding-left: 125px;
+    padding-top: 0;
+}
+
+.plus{
+    display: flex;
+    padding-left: 210px;
+    padding-top: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(198, 194, 210);
+    font-style: italic;
+    font-size: 12px;
+}
+
+.login{
+    display: flex;
+    margin: 10px 525px 0;
+    /* padding-left: 185px; */
+    background: blue;
+    border: 0;
+    outline: 0;
+    /* cursor: pointer; */
+    width : 270px;
+    height: 30px;
+    border-radius: 0px;
+}
+
+.login:hover{
+    background-color: #9a1414;
+    animation-delay: 0.3s;
+}
+
+.login a{
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    text-align: center; 
+    padding-top: 5px;
+}
+
+.login img{
+    /* align-items: center; */
+    width: 16px;
+    height : 16px;
+    padding-right: 10px;
+    padding-left: 50px;
+    padding-top: 6px;
+}
